@@ -1,0 +1,74 @@
+.Home119 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* 화면 높이의 100%로 설정하여 화면 전체를 차지하도록 함 */
+    position: relative;
+  }
+
+.Headlogo{
+    display: flex;
+    justify-content: left;
+    height: 5vh;
+}
+.textBelowImage {
+    text-align: center;
+    height: 100vh;
+    margin-top: 100px;
+  }
+
+.Headmonitor{
+    width: 400px; /* 이미지의 너비를 5배로 조정 */
+    height: 100px; /* 이미지의 높이를 5배로 조정 */
+}
+
+  .center img {
+    width: 1920px; /* 이미지의 너비를 5배로 조정 */
+    height: 493px; /* 이미지의 높이를 5배로 조정 */
+    margin-bottom: 10px; /* 이미지의 상단 여백을 추가하여 조금 올림 */
+  }
+  .label{
+    width: 671px;
+    height: 122px;
+  }
+
+  .label .center-text-main{
+    position: absolute;
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 50%;
+    top: 50%;
+    transform: translate(20%, -50%);
+    width: 671px;
+  }
+
+  .label .center-text-sub{
+    position: absolute;
+    color: #ffffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 50%;
+    top: 50%;
+    transform: translate(21%, 150%);
+    width: 671px;
+  }
+  
+  .ytb1{
+    width: 400px; /* 이미지의 너비를 5배로 조정 */
+    height: 200px; /* 이미지의 높이를 5배로 조정 */
+    margin-left: 80px;
+  }
+.ytb2{
+    width: 400px; /* 이미지의 너비를 5배로 조정 */
+    height: 200px; /* 이미지의 높이를 5배로 조정 */
+    margin-left: 50px;
+}
+
+.explain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

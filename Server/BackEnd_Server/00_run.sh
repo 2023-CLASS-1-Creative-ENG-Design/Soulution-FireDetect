@@ -1,0 +1,1 @@
+nohup python /compbe/app.py > /compbe/00_logs/compbe.log &
